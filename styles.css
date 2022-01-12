@@ -1,0 +1,10 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.snakeGrid {
+  display: grid;
+  grid-template-rows: 2rem;
+}
