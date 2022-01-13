@@ -1,0 +1,17 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+}
+.snakeGrid {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(10, 2rem);
+  grid-template-rows: repeat(10, 2rem);
+  background-color: hsl(125, 70%, 50%);
+}
